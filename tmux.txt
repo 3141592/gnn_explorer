@@ -1,0 +1,128 @@
+# tmux Quick Reference
+
+## Sessions
+
+```bash
+tmux ls
+```
+
+List sessions
+
+```bash
+tmux new -s gnn
+```
+
+Create session
+
+```bash
+tmux attach -t gnn
+```
+
+Attach to session
+
+```bash
+tmux kill-session -t gnn
+```
+
+Kill session
+
+```bash
+tmux kill-server
+```
+
+Kill all tmux sessions
+
+---
+
+## Inside tmux
+
+Prefix key:
+
+```text
+Ctrl-b
+```
+
+---
+
+## Panes
+
+```text
+Ctrl-b %
+```
+
+Split left/right
+
+```text
+Ctrl-b "
+```
+
+Split top/bottom
+
+```text
+Ctrl-b |
+```
+
+Custom split left/right
+
+```text
+Ctrl-b -
+```
+
+Custom split top/bottom
+
+```text
+Ctrl-b h
+Ctrl-b j
+Ctrl-b k
+Ctrl-b l
+```
+
+Move between panes
+
+```text
+Ctrl-b z
+```
+
+Zoom/unzoom current pane
+
+```text
+Ctrl-b Space
+```
+
+Cycle layouts
+
+```text
+Ctrl-b d
+```
+
+Detach from tmux
+
+---
+
+## Resize panes
+
+```text
+Ctrl-b Alt-Up
+Ctrl-b Alt-Down
+Ctrl-b Alt-Left
+Ctrl-b Alt-Right
+```
+
+---
+
+## Reload config
+
+```bash
+tmux source-file .tmux/tmux.conf
+```
+
+---
+
+## Your project startup
+
+```bash
+bin/tmux-gnn
+```
+
+Create or attach to your default GNN workspace layout
+

@@ -17,7 +17,12 @@
       ],
       "settings": {
         "python.defaultInterpreterPath": "/workspaces/gnn_explorer/.venv/bin/python",
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.profiles.linux": {
+          "tmux-gnn": {
+            "path": "/workspaces/gnn_explorer/bin/tmux-gnn"
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "tmux-gnn"
       }
     }
   },

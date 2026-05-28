@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+if [ -n "${TMUX:-}" ]; then
+  exec bash
+fi
+
 SESSION="gnn"
 CONF=".tmux/tmux.conf"
 

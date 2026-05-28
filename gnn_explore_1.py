@@ -1,11 +1,7 @@
 # gnn_explorer
 
-Based on https://www.geeksforgeeks.org/deep-learning/what-are-graph-neural-networks/
+# Based on https://www.geeksforgeeks.org/deep-learning/what-are-graph-neural-networks/
 
-Step 1: Imports Libraries
-We will import pytorch, scikit learn, matplotlib and numpy.
-
-```python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -24,15 +20,7 @@ import numpy as np
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print("Using device:", device)
-```
 
-Step 2 Load the MUTAG dataset
-Uses TUDataset which contains many small graphs.
-Shuffles and splits into 80% train and 20% test.
-NormalizeFeatures scales node features.
-loader_train and loader_test yield batches of graphs.
-
-```python
 dataset = TUDataset(root='data/TUDataset', name='MUTAG', use_node_attr=False, transform=T.NormalizeFeatures())
 
 dataset = dataset.shuffle()
@@ -45,21 +33,12 @@ print(f"Loaded MUTAG. Total graphs: {len(dataset)} | Train: {len(train_dataset)}
 
 loader_train = DataLoader(train_dataset, batch_size=64, shuffle=True)
 loader_test = DataLoader(test_dataset, batch_size=64, shuffle=False)
-```
 
-Step 3: Define the GNN model
-GINConv is a useful graph aggregator for graph classification.
-num_layers controls message passing depth.
-global_mean_pool pools node embeddings to graph embeddings.
-post_mp is an MLP that converts pooled embedding to class logits.
-loss() returns NLL loss expecting F.log_softmax outputs.
-
-```python
 class GNNStack(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, num_layers=3, dropout=0.25):
         super(GNNStack, self).__init__()
         self.num_layers = num_layers
-        self.dropout = dropou
+        self.dropout = dropout
         self.convs = nn.ModuleList()
         self.convs.append(pyg_nn.GINConv(nn.Sequential(
             nn.Linear(input_dim, hidden_dim), nn.ReLU(), nn.Linear(hidden_dim, hidden_dim)
@@ -96,14 +75,7 @@ class GNNStack(nn.Module):
 
     def loss(self, pred_logprob, label):
         return F.nll_loss(pred_logprob, label)
-```
 
-Step 4: Instantiate model and optimizer
-input_dim uses dataset node features.
-Move model to device.
-Adam optimizer with small weight decay for regularization.
-
-```python
 input_dim = max(1, dataset.num_node_features)
 num_classes = dataset.num_classes
 
@@ -111,15 +83,7 @@ model = GNNStack(input_dim=input_dim, hidden_dim=64, output_dim=num_classes, num
 optimizer = optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
 
 print(model)
-```
 
-Step 5: Training and evaluation helpers
-train_graph_epoch trains for one epoch across batches.
-Multiply loss by batch.num_graphs to accumulate correctly.
-eval_graph computes accuracy over test batches.
-Functions expect batches moved to device.
-
-```python
 def train_graph_epoch(loader):
     model.train()
     total_loss = 0.0
@@ -147,12 +111,7 @@ def eval_graph(loader):
         correct += (pred_label == batch.y).sum().item()
         total += batch.num_graphs
     return correct / total
-```
 
-Step 6: Run training loop & log metrics
-Train for num_epochs, store loss and test accuracy lists.
-
-```python
 num_epochs = 100
 train_losses = []
 test_scores = []
@@ -165,12 +124,7 @@ for epoch in range(1, num_epochs + 1):
     if epoch % 10 == 0 or epoch == 1:
         print(f"[Graph] Epoch {epoch:03d} | Loss: {loss:.4f} | Test Acc: {acc:.4f}")
 
-```
 
-Step 7: Plot training loss and test accuracy
-Use these to check convergence and overfitting.
-
-```python
 plt.figure(figsize=(10,4))
 plt.subplot(1,2,1)
 plt.plot(train_losses, label='Train Loss')
@@ -181,15 +135,9 @@ plt.plot(test_scores, label='Test Accuracy')
 plt.xlabel('Epoch'); plt.ylabel('Accuracy'); plt.title('Test Accuracy'); plt.grid(True); plt.legend()
 
 plt.tight_layout()
-plt.show()
-```
+plt.savefig("my_plot_1.png", dpi=300, bbox_inches="tight")
+plt.close()
 
-Step 8: Get graph embeddings and t-SNE visualization
-Run model over all graphs, pool node embeddings to get graph-level embeddings.
-Apply t-SNE to reduce to 2D and scatter-plot colored by class.
-Clusters indicate separability of learned graph representations.
-
-```python
 @torch.no_grad()
 def get_graph_embeddings_and_labels():
     model.eval()
@@ -216,5 +164,5 @@ plt.figure(figsize=(7,6))
 scatter = plt.scatter(emb2[:,0], emb2[:,1], c=labels, cmap='tab10', s=40)
 plt.legend(*scatter.legend_elements(), title="Classes")
 plt.title('t-SNE of learned graph embeddings')
-plt.show()
-```
+plt.savefig("my_plot2.png", dpi=300, bbox_inches="tight")
+plt.close()

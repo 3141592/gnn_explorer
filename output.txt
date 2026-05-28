@@ -1,0 +1,37 @@
+Using device: cuda
+Loaded MUTAG. Total graphs: 188 | Train: 150 | Test: 38
+GNNStack(
+  (convs): ModuleList(
+    (0): GINConv(nn=Sequential(
+      (0): Linear(in_features=7, out_features=64, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=64, out_features=64, bias=True)
+    ))
+    (1-2): 2 x GINConv(nn=Sequential(
+      (0): Linear(in_features=64, out_features=64, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=64, out_features=64, bias=True)
+    ))
+  )
+  (lns): ModuleList(
+    (0-1): 2 x LayerNorm((64,), eps=1e-05, elementwise_affine=True)
+  )
+  (post_mp): Sequential(
+    (0): Linear(in_features=64, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.25, inplace=False)
+    (3): Linear(in_features=64, out_features=2, bias=True)
+  )
+)
+[Graph] Epoch 001 | Loss: 0.7977 | Test Acc: 0.6579
+[Graph] Epoch 010 | Loss: 0.6506 | Test Acc: 0.6579
+[Graph] Epoch 020 | Loss: 0.5165 | Test Acc: 0.7368
+[Graph] Epoch 030 | Loss: 0.5626 | Test Acc: 0.6579
+[Graph] Epoch 040 | Loss: 0.4849 | Test Acc: 0.7895
+[Graph] Epoch 050 | Loss: 0.4323 | Test Acc: 0.7895
+[Graph] Epoch 060 | Loss: 0.4481 | Test Acc: 0.7895
+[Graph] Epoch 070 | Loss: 0.4298 | Test Acc: 0.7895
+[Graph] Epoch 080 | Loss: 0.4197 | Test Acc: 0.7105
+[Graph] Epoch 090 | Loss: 0.4011 | Test Acc: 0.7105
+[Graph] Epoch 100 | Loss: 0.4109 | Test Acc: 0.7895
+Embeddings shape: (188, 64) Labels shape: (188,)
