@@ -1,0 +1,28 @@
+set number
+set relativenumber
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set scrolloff=5
+set nowrap
+
+syntax on
+
+" Better splits
+set splitbelow
+set splitright
+
+" Persistent undo
+set undofile
+set undodir=~/.vim/undo
+
+" Faster redraw
+set ttyfast
