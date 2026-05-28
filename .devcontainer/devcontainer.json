@@ -1,0 +1,29 @@
+{
+  "name": "gnn_explorer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/gnn_explorer",
+  "remoteUser": "roy",
+  "runArgs": [
+    "--gpus=all"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/workspaces/gnn_explorer/.venv/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "mounts": [
+    "source=tflens-bash-history,target=/home/roy/commandhistory,type=volume"
+  ],
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && python -m pip install --upgrade pip setuptools wheel && pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124 && pip install -e .[dev]",
+  "postStartCommand": "bash -lc 'if [ -f /workspaces/gnn_explorer/.venv/bin/activate ]; then grep -qxF \"source /workspaces/gnn_explorer/.venv/bin/activate\" ~/.bashrc || echo \"source /workspaces/gnn_explorer/.venv/bin/activate\" >> ~/.bashrc; fi'"
+}
