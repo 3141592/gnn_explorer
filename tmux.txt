@@ -12,28 +12,6 @@ List sessions
 tmux new -s gnn
 ```
 
-Create session
-
-```bash
-tmux attach -t gnn
-```
-
-Attach to session
-
-```bash
-tmux kill-session -t gnn
-```
-
-Kill session
-
-```bash
-tmux kill-server
-```
-
-Kill all tmux sessions
-
----
-
 ## Inside tmux
 
 Prefix key:
@@ -81,6 +59,7 @@ Move between panes
 
 ```text
 Ctrl-b z
+Ctrl-b + ->
 ```
 
 Zoom/unzoom current pane
