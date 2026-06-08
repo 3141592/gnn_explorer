@@ -1,0 +1,148 @@
+12 Missouri
+12 Auburn
+12 Texas
+12 Mississippi St.
+12 Tennessee
+12 Kentucky
+12 Alabama
+12 Georgia
+12 Arkansas
+12 Oklahoma
+12 Florida
+12 Texas A&M
+12 Vanderbilt
+12 LSU
+12 Ole Miss
+12 South Carolina
+ 2 Florida St.
+ 2 Clemson
+ 2 Georgia St.
+ 2 Virginia Tech
+ 2 Utah St.
+ 2 Notre Dame
+ 1 Central Arkansas
+ 1 Baylor
+ 1 Ohio St.
+ 1 Southern Miss
+ 1 Syracuse
+ 1 Toledo
+ 1 Marshall
+ 1 Alabama A&M
+ 1 Illinois State
+ 1 Long Island University
+ 1 UTSA
+ 1 Charleston Southern
+ 1 San José State
+ 1 Austin Peay
+ 1 Kansas
+ 1 East Tennessee State
+ 1 South Florida
+ 1 Arkansas St.
+ 1 South Carolina State
+ 1 Ball State
+ 1 Louisiana Tech
+ 1 Arizona St.
+ 1 Michigan
+ 1 LA Monroe
+ 1 Wisconsin
+ 1 Temple
+ 1 South Alabama
+ 1 UL Lafayette
+ 1 UTEP
+ 1 Alcorn State
+ 1 Eastern Michigan
+ 1 Memphis
+ 1 UAB
+ 1 Tulane
+ 1 Northern Illinois
+ 1 Miami
+ 1 SE Louisiana
+ 1 Sam Houston
+ 1 UMass
+ 1 Kent State
+ 1 Washington St.
+ 1 The Citadel
+ 1 Tennessee Tech
+ 1 New Mexico St.
+ 1 Samford
+ 1 Charlotte
+ 1 Eastern Illinois
+ 1 Mercer
+ 1 Coastal Carolina
+ 1 W. Kentucky
+ 1 Georgia Tech
+ 1 Louisville
+0.1327 Alabama
+0.1041 Florida
+0.1013 Florida St.
+0.0955 Georgia
+0.0764 Texas
+0.0453 Texas A&M
+0.0376 Oklahoma
+0.0356 Ole Miss
+0.0352 Vanderbilt
+0.0349 Kentucky
+0.0325 Tennessee
+0.0216 LSU
+0.0175 Miami
+0.0166 Missouri
+0.0140 Ohio St.
+0.0123 South Carolina
+0.0120 Auburn
+0.0116 Mississippi St.
+0.0110 Louisville
+0.0070 Arkansas
+0.0052 Notre Dame
+0.0042 South Florida
+0.0041 Clemson
+0.0027 Memphis
+0.0026 Central Arkansas
+0.0026 Baylor
+0.0026 Southern Miss
+0.0026 Syracuse
+0.0026 Toledo
+0.0026 Marshall
+0.0026 Alabama A&M
+0.0026 Illinois State
+0.0026 Long Island University
+0.0026 UTSA
+0.0026 Charleston Southern
+0.0026 Georgia St.
+0.0026 Virginia Tech
+0.0026 San José State
+0.0026 Utah St.
+0.0026 Austin Peay
+0.0026 Kansas
+0.0026 East Tennessee State
+0.0026 Arkansas St.
+0.0026 South Carolina State
+0.0026 Ball State
+0.0026 Louisiana Tech
+0.0026 Arizona St.
+0.0026 Michigan
+0.0026 LA Monroe
+0.0026 Wisconsin
+0.0026 Temple
+0.0026 South Alabama
+0.0026 UL Lafayette
+0.0026 UTEP
+0.0026 Alcorn State
+0.0026 Eastern Michigan
+0.0026 UAB
+0.0026 Tulane
+0.0026 Northern Illinois
+0.0026 SE Louisiana
+0.0026 Sam Houston
+0.0026 UMass
+0.0026 Kent State
+0.0026 Washington St.
+0.0026 The Citadel
+0.0026 Tennessee Tech
+0.0026 New Mexico St.
+0.0026 Samford
+0.0026 Charlotte
+0.0026 Eastern Illinois
+0.0026 Mercer
+0.0026 Coastal Carolina
+0.0026 W. Kentucky
+0.0026 Georgia Tech
