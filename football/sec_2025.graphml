@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d2" for="edge" attr.name="loser_score" attr.type="long" />
+  <key id="d1" for="edge" attr.name="winner_score" attr.type="long" />
+  <key id="d0" for="edge" attr.name="weight" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="Central Arkansas" />
+    <node id="Missouri" />
+    <node id="Baylor" />
+    <node id="Auburn" />
+    <node id="Texas" />
+    <node id="Ohio St." />
+    <node id="Southern Miss" />
+    <node id="Mississippi St." />
+    <node id="Syracuse" />
+    <node id="Tennessee" />
+    <node id="Toledo" />
+    <node id="Kentucky" />
+    <node id="Alabama" />
+    <node id="Florida St." />
+    <node id="Marshall" />
+    <node id="Georgia" />
+    <node id="Alabama A&amp;M" />
+    <node id="Arkansas" />
+    <node id="Illinois State" />
+    <node id="Oklahoma" />
+    <node id="Long Island University" />
+    <node id="Florida" />
+    <node id="UTSA" />
+    <node id="Texas A&amp;M" />
+    <node id="Charleston Southern" />
+    <node id="Vanderbilt" />
+    <node id="Clemson" />
+    <node id="LSU" />
+    <node id="Georgia St." />
+    <node id="Ole Miss" />
+    <node id="Virginia Tech" />
+    <node id="South Carolina" />
+    <node id="San José State" />
+    <node id="Utah St." />
+    <node id="Austin Peay" />
+    <node id="Kansas" />
+    <node id="East Tennessee State" />
+    <node id="South Florida" />
+    <node id="Arkansas St." />
+    <node id="South Carolina State" />
+    <node id="Ball State" />
+    <node id="Louisiana Tech" />
+    <node id="Arizona St." />
+    <node id="Michigan" />
+    <node id="LA Monroe" />
+    <node id="Wisconsin" />
+    <node id="Temple" />
+    <node id="South Alabama" />
+    <node id="UL Lafayette" />
+    <node id="UTEP" />
+    <node id="Alcorn State" />
+    <node id="Eastern Michigan" />
+    <node id="Notre Dame" />
+    <node id="Memphis" />
+    <node id="UAB" />
+    <node id="Tulane" />
+    <node id="Northern Illinois" />
+    <node id="Miami" />
+    <node id="SE Louisiana" />
+    <node id="Sam Houston" />
+    <node id="UMass" />
+    <node id="Kent State" />
+    <node id="Washington St." />
+    <node id="The Citadel" />
+    <node id="Tennessee Tech" />
+    <node id="New Mexico St." />
+    <node id="Samford" />
+    <node id="Charlotte" />
+    <node id="Eastern Illinois" />
+    <node id="Mercer" />
+    <node id="Coastal Carolina" />
+    <node id="W. Kentucky" />
+    <node id="Georgia Tech" />
+    <node id="Louisville" />
+    <edge source="Central Arkansas" target="Missouri" id="0">
+      <data key="d0">55</data>
+      <data key="d1">61</data>
+      <data key="d2">6</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Missouri" target="Alabama" id="0">
+      <data key="d0">3</data>
+      <data key="d1">27</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Missouri" target="Vanderbilt" id="0">
+      <data key="d0">7</data>
+      <data key="d1">17</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Missouri" target="Texas A&amp;M" id="0">
+      <data key="d0">21</data>
+      <data key="d1">38</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Missouri" target="Oklahoma" id="0">
+      <data key="d0">11</data>
+      <data key="d1">17</data>
+      <data key="d2">6</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Baylor" target="Auburn" id="0">
+      <data key="d0">14</data>
+      <data key="d1">38</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Oklahoma" id="0">
+      <data key="d0">7</data>
+      <data key="d1">24</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Texas A&amp;M" id="0">
+      <data key="d0">6</data>
+      <data key="d1">16</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Georgia" id="0">
+      <data key="d0">10</data>
+      <data key="d1">20</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Missouri" id="0">
+      <data key="d0">6</data>
+      <data key="d1">23</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Kentucky" id="0">
+      <data key="d0">7</data>
+      <data key="d1">10</data>
+      <data key="d2">3</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Vanderbilt" id="0">
+      <data key="d0">7</data>
+      <data key="d1">45</data>
+      <data key="d2">38</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Auburn" target="Alabama" id="0">
+      <data key="d0">7</data>
+      <data key="d1">27</data>
+      <data key="d2">20</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Texas" target="Ohio St." id="0">
+      <data key="d0">7</data>
+      <data key="d1">14</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Texas" target="Florida" id="0">
+      <data key="d0">8</data>
+      <data key="d1">29</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Texas" target="Georgia" id="0">
+      <data key="d0">25</data>
+      <data key="d1">35</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Southern Miss" target="Mississippi St." id="0">
+      <data key="d0">17</data>
+      <data key="d1">34</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Tennessee" id="0">
+      <data key="d0">7</data>
+      <data key="d1">41</data>
+      <data key="d2">34</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Texas A&amp;M" id="0">
+      <data key="d0">22</data>
+      <data key="d1">31</data>
+      <data key="d2">9</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Florida" id="0">
+      <data key="d0">2</data>
+      <data key="d1">23</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Texas" id="0">
+      <data key="d0">7</data>
+      <data key="d1">45</data>
+      <data key="d2">38</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Georgia" id="0">
+      <data key="d0">20</data>
+      <data key="d1">41</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Missouri" id="0">
+      <data key="d0">22</data>
+      <data key="d1">49</data>
+      <data key="d2">27</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mississippi St." target="Ole Miss" id="0">
+      <data key="d0">19</data>
+      <data key="d1">38</data>
+      <data key="d2">19</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Syracuse" target="Tennessee" id="0">
+      <data key="d0">19</data>
+      <data key="d1">45</data>
+      <data key="d2">26</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Tennessee" target="Georgia" id="0">
+      <data key="d0">3</data>
+      <data key="d1">44</data>
+      <data key="d2">41</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Tennessee" target="Alabama" id="0">
+      <data key="d0">17</data>
+      <data key="d1">37</data>
+      <data key="d2">20</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Tennessee" target="Oklahoma" id="0">
+      <data key="d0">6</data>
+      <data key="d1">33</data>
+      <data key="d2">27</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Tennessee" target="Vanderbilt" id="0">
+      <data key="d0">21</data>
+      <data key="d1">45</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Toledo" target="Kentucky" id="0">
+      <data key="d0">8</data>
+      <data key="d1">24</data>
+      <data key="d2">16</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="Ole Miss" id="0">
+      <data key="d0">7</data>
+      <data key="d1">30</data>
+      <data key="d2">23</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="South Carolina" id="0">
+      <data key="d0">22</data>
+      <data key="d1">35</data>
+      <data key="d2">13</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="Georgia" id="0">
+      <data key="d0">21</data>
+      <data key="d1">35</data>
+      <data key="d2">14</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="Texas" id="0">
+      <data key="d0">3</data>
+      <data key="d1">16</data>
+      <data key="d2">13</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="Tennessee" id="0">
+      <data key="d0">22</data>
+      <data key="d1">56</data>
+      <data key="d2">34</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="Vanderbilt" id="0">
+      <data key="d0">28</data>
+      <data key="d1">45</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kentucky" target="Louisville" id="0">
+      <data key="d0">41</data>
+      <data key="d1">41</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Alabama" target="Florida St." id="0">
+      <data key="d0">14</data>
+      <data key="d1">31</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Alabama" target="Oklahoma" id="0">
+      <data key="d0">2</data>
+      <data key="d1">23</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida St." target="Florida" id="0">
+      <data key="d0">19</data>
+      <data key="d1">40</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Marshall" target="Georgia" id="0">
+      <data key="d0">38</data>
+      <data key="d1">45</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Georgia" target="Alabama" id="0">
+      <data key="d0">3</data>
+      <data key="d1">24</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Alabama A&amp;M" target="Arkansas" id="0">
+      <data key="d0">45</data>
+      <data key="d1">52</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Ole Miss" id="0">
+      <data key="d0">6</data>
+      <data key="d1">41</data>
+      <data key="d2">35</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Memphis" id="0">
+      <data key="d0">1</data>
+      <data key="d1">32</data>
+      <data key="d2">31</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Notre Dame" id="0">
+      <data key="d0">43</data>
+      <data key="d1">56</data>
+      <data key="d2">13</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Tennessee" id="0">
+      <data key="d0">3</data>
+      <data key="d1">34</data>
+      <data key="d2">31</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Texas A&amp;M" id="0">
+      <data key="d0">3</data>
+      <data key="d1">45</data>
+      <data key="d2">42</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Auburn" id="0">
+      <data key="d0">9</data>
+      <data key="d1">33</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Mississippi St." id="0">
+      <data key="d0">3</data>
+      <data key="d1">38</data>
+      <data key="d2">35</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="LSU" id="0">
+      <data key="d0">1</data>
+      <data key="d1">23</data>
+      <data key="d2">22</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Texas" id="0">
+      <data key="d0">15</data>
+      <data key="d1">52</data>
+      <data key="d2">37</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas" target="Missouri" id="0">
+      <data key="d0">14</data>
+      <data key="d1">31</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Illinois State" target="Oklahoma" id="0">
+      <data key="d0">32</data>
+      <data key="d1">35</data>
+      <data key="d2">3</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Oklahoma" target="Texas" id="0">
+      <data key="d0">17</data>
+      <data key="d1">23</data>
+      <data key="d2">6</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Oklahoma" target="Ole Miss" id="0">
+      <data key="d0">8</data>
+      <data key="d1">34</data>
+      <data key="d2">26</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Long Island University" target="Florida" id="0">
+      <data key="d0">55</data>
+      <data key="d1">55</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="South Florida" id="0">
+      <data key="d0">2</data>
+      <data key="d1">18</data>
+      <data key="d2">16</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="LSU" id="0">
+      <data key="d0">10</data>
+      <data key="d1">20</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="Miami" id="0">
+      <data key="d0">19</data>
+      <data key="d1">26</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="Texas A&amp;M" id="0">
+      <data key="d0">17</data>
+      <data key="d1">34</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="Georgia" id="0">
+      <data key="d0">4</data>
+      <data key="d1">24</data>
+      <data key="d2">20</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="Kentucky" id="0">
+      <data key="d0">31</data>
+      <data key="d1">38</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="Ole Miss" id="0">
+      <data key="d0">10</data>
+      <data key="d1">34</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Florida" target="Tennessee" id="0">
+      <data key="d0">20</data>
+      <data key="d1">31</data>
+      <data key="d2">11</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="UTSA" target="Texas A&amp;M" id="0">
+      <data key="d0">18</data>
+      <data key="d1">42</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Texas A&amp;M" target="Texas" id="0">
+      <data key="d0">10</data>
+      <data key="d1">27</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Charleston Southern" target="Vanderbilt" id="0">
+      <data key="d0">42</data>
+      <data key="d1">45</data>
+      <data key="d2">3</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Vanderbilt" target="Alabama" id="0">
+      <data key="d0">16</data>
+      <data key="d1">30</data>
+      <data key="d2">14</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Vanderbilt" target="Texas" id="0">
+      <data key="d0">3</data>
+      <data key="d1">34</data>
+      <data key="d2">31</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Clemson" target="LSU" id="0">
+      <data key="d0">7</data>
+      <data key="d1">17</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="LSU" target="Ole Miss" id="0">
+      <data key="d0">5</data>
+      <data key="d1">24</data>
+      <data key="d2">19</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="LSU" target="Vanderbilt" id="0">
+      <data key="d0">7</data>
+      <data key="d1">31</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="LSU" target="Texas A&amp;M" id="0">
+      <data key="d0">24</data>
+      <data key="d1">49</data>
+      <data key="d2">25</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="LSU" target="Alabama" id="0">
+      <data key="d0">11</data>
+      <data key="d1">20</data>
+      <data key="d2">9</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="LSU" target="Oklahoma" id="0">
+      <data key="d0">4</data>
+      <data key="d1">17</data>
+      <data key="d2">13</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Georgia St." target="Ole Miss" id="0">
+      <data key="d0">56</data>
+      <data key="d1">63</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Georgia St." target="Vanderbilt" id="0">
+      <data key="d0">49</data>
+      <data key="d1">70</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Ole Miss" target="Georgia" id="0">
+      <data key="d0">8</data>
+      <data key="d1">43</data>
+      <data key="d2">35</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Virginia Tech" target="South Carolina" id="0">
+      <data key="d0">13</data>
+      <data key="d1">24</data>
+      <data key="d2">11</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Virginia Tech" target="Vanderbilt" id="0">
+      <data key="d0">24</data>
+      <data key="d1">44</data>
+      <data key="d2">20</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Vanderbilt" id="0">
+      <data key="d0">24</data>
+      <data key="d1">31</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Missouri" id="0">
+      <data key="d0">9</data>
+      <data key="d1">29</data>
+      <data key="d2">20</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="LSU" id="0">
+      <data key="d0">10</data>
+      <data key="d1">20</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Oklahoma" id="0">
+      <data key="d0">19</data>
+      <data key="d1">26</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Alabama" id="0">
+      <data key="d0">7</data>
+      <data key="d1">29</data>
+      <data key="d2">22</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Ole Miss" id="0">
+      <data key="d0">16</data>
+      <data key="d1">30</data>
+      <data key="d2">14</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Texas A&amp;M" id="0">
+      <data key="d0">1</data>
+      <data key="d1">31</data>
+      <data key="d2">30</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina" target="Clemson" id="0">
+      <data key="d0">14</data>
+      <data key="d1">28</data>
+      <data key="d2">14</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="San José State" target="Texas" id="0">
+      <data key="d0">31</data>
+      <data key="d1">38</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Utah St." target="Texas A&amp;M" id="0">
+      <data key="d0">22</data>
+      <data key="d1">44</data>
+      <data key="d2">22</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Utah St." target="Vanderbilt" id="0">
+      <data key="d0">20</data>
+      <data key="d1">55</data>
+      <data key="d2">35</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Austin Peay" target="Georgia" id="0">
+      <data key="d0">22</data>
+      <data key="d1">28</data>
+      <data key="d2">6</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kansas" target="Missouri" id="0">
+      <data key="d0">11</data>
+      <data key="d1">42</data>
+      <data key="d2">31</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="East Tennessee State" target="Tennessee" id="0">
+      <data key="d0">55</data>
+      <data key="d1">72</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arkansas St." target="Arkansas" id="0">
+      <data key="d0">42</data>
+      <data key="d1">56</data>
+      <data key="d2">14</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Carolina State" target="South Carolina" id="0">
+      <data key="d0">28</data>
+      <data key="d1">38</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Ball State" target="Auburn" id="0">
+      <data key="d0">39</data>
+      <data key="d1">42</data>
+      <data key="d2">3</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Louisiana Tech" target="LSU" id="0">
+      <data key="d0">16</data>
+      <data key="d1">23</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Arizona St." target="Mississippi St." id="0">
+      <data key="d0">4</data>
+      <data key="d1">24</data>
+      <data key="d2">20</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Michigan" target="Oklahoma" id="0">
+      <data key="d0">11</data>
+      <data key="d1">24</data>
+      <data key="d2">13</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="LA Monroe" target="Alabama" id="0">
+      <data key="d0">73</data>
+      <data key="d1">73</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Wisconsin" target="Alabama" id="0">
+      <data key="d0">24</data>
+      <data key="d1">38</data>
+      <data key="d2">14</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Temple" target="Oklahoma" id="0">
+      <data key="d0">39</data>
+      <data key="d1">42</data>
+      <data key="d2">3</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="South Alabama" target="Auburn" id="0">
+      <data key="d0">16</data>
+      <data key="d1">31</data>
+      <data key="d2">15</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="UL Lafayette" target="Missouri" id="0">
+      <data key="d0">42</data>
+      <data key="d1">52</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="UTEP" target="Texas" id="0">
+      <data key="d0">17</data>
+      <data key="d1">27</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Alcorn State" target="Mississippi St." id="0">
+      <data key="d0">63</data>
+      <data key="d1">63</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Eastern Michigan" target="Kentucky" id="0">
+      <data key="d0">25</data>
+      <data key="d1">48</data>
+      <data key="d2">23</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Notre Dame" target="Texas A&amp;M" id="0">
+      <data key="d0">1</data>
+      <data key="d1">41</data>
+      <data key="d2">40</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="UAB" target="Tennessee" id="0">
+      <data key="d0">32</data>
+      <data key="d1">56</data>
+      <data key="d2">24</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Tulane" target="Ole Miss" id="0">
+      <data key="d0">35</data>
+      <data key="d1">45</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Northern Illinois" target="Mississippi St." id="0">
+      <data key="d0">28</data>
+      <data key="d1">38</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="SE Louisiana" target="LSU" id="0">
+      <data key="d0">46</data>
+      <data key="d1">56</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Sam Houston" target="Texas" id="0">
+      <data key="d0">55</data>
+      <data key="d1">55</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="UMass" target="Missouri" id="0">
+      <data key="d0">36</data>
+      <data key="d1">42</data>
+      <data key="d2">6</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Kent State" target="Oklahoma" id="0">
+      <data key="d0">44</data>
+      <data key="d1">44</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Washington St." target="Ole Miss" id="0">
+      <data key="d0">3</data>
+      <data key="d1">24</data>
+      <data key="d2">21</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="The Citadel" target="Ole Miss" id="0">
+      <data key="d0">49</data>
+      <data key="d1">49</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Tennessee Tech" target="Kentucky" id="0">
+      <data key="d0">32</data>
+      <data key="d1">42</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="New Mexico St." target="Tennessee" id="0">
+      <data key="d0">33</data>
+      <data key="d1">42</data>
+      <data key="d2">9</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Samford" target="Texas A&amp;M" id="0">
+      <data key="d0">48</data>
+      <data key="d1">48</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Charlotte" target="Georgia" id="0">
+      <data key="d0">32</data>
+      <data key="d1">35</data>
+      <data key="d2">3</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Eastern Illinois" target="Alabama" id="0">
+      <data key="d0">56</data>
+      <data key="d1">56</data>
+      <data key="d2">0</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Mercer" target="Auburn" id="0">
+      <data key="d0">45</data>
+      <data key="d1">62</data>
+      <data key="d2">17</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Coastal Carolina" target="South Carolina" id="0">
+      <data key="d0">44</data>
+      <data key="d1">51</data>
+      <data key="d2">7</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="W. Kentucky" target="LSU" id="0">
+      <data key="d0">3</data>
+      <data key="d1">13</data>
+      <data key="d2">10</data>
+      <data key="d3">lost_to</data>
+    </edge>
+    <edge source="Georgia Tech" target="Georgia" id="0">
+      <data key="d0">7</data>
+      <data key="d1">16</data>
+      <data key="d2">9</data>
+      <data key="d3">lost_to</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,77 +1,4 @@
-12 Missouri
-12 Auburn
-12 Texas
-12 Mississippi St.
-12 Tennessee
-12 Kentucky
-12 Alabama
-12 Georgia
-12 Arkansas
-12 Oklahoma
-12 Florida
-12 Texas A&M
-12 Vanderbilt
-12 LSU
-12 Ole Miss
-12 South Carolina
- 2 Florida St.
- 2 Clemson
- 2 Georgia St.
- 2 Virginia Tech
- 2 Utah St.
- 2 Notre Dame
- 1 Central Arkansas
- 1 Baylor
- 1 Ohio St.
- 1 Southern Miss
- 1 Syracuse
- 1 Toledo
- 1 Marshall
- 1 Alabama A&M
- 1 Illinois State
- 1 Long Island University
- 1 UTSA
- 1 Charleston Southern
- 1 San José State
- 1 Austin Peay
- 1 Kansas
- 1 East Tennessee State
- 1 South Florida
- 1 Arkansas St.
- 1 South Carolina State
- 1 Ball State
- 1 Louisiana Tech
- 1 Arizona St.
- 1 Michigan
- 1 LA Monroe
- 1 Wisconsin
- 1 Temple
- 1 South Alabama
- 1 UL Lafayette
- 1 UTEP
- 1 Alcorn State
- 1 Eastern Michigan
- 1 Memphis
- 1 UAB
- 1 Tulane
- 1 Northern Illinois
- 1 Miami
- 1 SE Louisiana
- 1 Sam Houston
- 1 UMass
- 1 Kent State
- 1 Washington St.
- 1 The Citadel
- 1 Tennessee Tech
- 1 New Mexico St.
- 1 Samford
- 1 Charlotte
- 1 Eastern Illinois
- 1 Mercer
- 1 Coastal Carolina
- 1 W. Kentucky
- 1 Georgia Tech
- 1 Louisville
+Pagerank scores:
 0.1327 Alabama
 0.1041 Florida
 0.1013 Florida St.
@@ -146,3 +73,28 @@
 0.0026 Coastal Carolina
 0.0026 W. Kentucky
 0.0026 Georgia Tech
+
+
+In degree sorted
+('Vanderbilt', 229)
+('Alabama', 217)
+('Ole Miss', 214)
+('Missouri', 195)
+('Tennessee', 191)
+('Georgia', 190)
+('Texas A&M', 183)
+('Oklahoma', 175)
+('Texas', 158)
+('Auburn', 123)
+
+Pagerank sorted
+('Alabama', 0.1326513079761722)
+('Florida', 0.10405502218872908)
+('Florida St.', 0.10125906342469397)
+('Georgia', 0.09546548476314215)
+('Texas', 0.07635261011941577)
+('Texas A&M', 0.04527294858454456)
+('Oklahoma', 0.03757315499985969)
+('Ole Miss', 0.03559612865347482)
+('Vanderbilt', 0.03520452046670605)
+('Kentucky', 0.03489026162047558)

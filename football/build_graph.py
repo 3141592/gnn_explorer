@@ -70,6 +70,7 @@ for game in games_final:
             weight=margin,
             winner_score=max(team1_score, team2_score),
             loser_score=min(team1_score, team2_score),
+            relation="lost_to",
         )
     except Exception as error:
         print(error)
@@ -131,3 +132,10 @@ pr_sorted = sorted(
 print(in_sorted)
 print()
 print(pr_sorted)
+
+# serialize graph
+nx.write_graphml_lxml(dg, "sec_2025.graphml")
+
+
+
+
